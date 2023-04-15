@@ -20,7 +20,7 @@ const menuTab = (() => {
         const menuListItem = document.createElement("li");
 
         const menuListItemImage = document.createElement("img");
-        menuListItemImage.src = "../src/Images/AdobeStock_67880775_Large.jpeg";
+        menuListItemImage.src = "./src/Images/AdobeStock_67880775_Large.jpeg";
         const menuListItemTitle = document.createElement("p");
         menuListItemTitle.style.fontWeight = "bold";
         menuListItemTitle.innerHTML = "Menu Item #" + i;
