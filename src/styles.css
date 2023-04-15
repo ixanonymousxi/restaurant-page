@@ -33,6 +33,7 @@ nav{
 .tabs{
     display:flex;
     justify-content:space-between;
+    cursor:pointer;
 }
 
 .tab{
@@ -45,7 +46,7 @@ nav{
     font-weight: 600;
 }
 
-.tab:first-child{
+.selected-tab{
     background:#f9f2e5;
 }
 
@@ -103,7 +104,7 @@ nav{
     overflow-y: scroll;
     margin-top:10px;
     display:grid;
-    grid-template-columns:repeat(3, 185px);
+    grid-template-columns:repeat(3, 1fr);
     gap:25px;
 }
 
